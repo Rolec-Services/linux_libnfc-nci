@@ -448,7 +448,7 @@ void onMessageReceived(unsigned char *message, unsigned int length)
 {
     unsigned int i = 0x00;
     printf("\n\t\tNDEF Message Received : \n");
-    PrintNDEFContent(NULL, NULL, message, length);
+    //PrintNDEFContent(NULL, NULL, message, length);
 }
 void onSnepClientReady()
 {
@@ -755,6 +755,7 @@ void open_uri (const char* uri)
     }
 }
 
+void PrintNDEFContent(nfc_tag_info_t* TagInfo, ndef_info_t* NDEFinfo, unsigned char* ndefRaw, unsigned int ndefRawLen);
 void PrintNDEFContent(nfc_tag_info_t* TagInfo, ndef_info_t* NDEFinfo, unsigned char* ndefRaw, unsigned int ndefRawLen)
 {
     unsigned char* NDEFContent = NULL;

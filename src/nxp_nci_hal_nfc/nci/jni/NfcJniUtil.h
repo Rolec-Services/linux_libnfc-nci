@@ -21,6 +21,7 @@
 #include <pthread.h>
 #include <semaphore.h>
 #include <sys/queue.h>
+#include <stdint.h>
 #if (NXP_EXTNS == TRUE)
 #include "Nxp_Features.h"
 #endif

@@ -18,6 +18,7 @@
 #include <map>
 #include <string>
 #include <vector>
+#include <stdint.h>
 
 class ConfigValue {
  public:

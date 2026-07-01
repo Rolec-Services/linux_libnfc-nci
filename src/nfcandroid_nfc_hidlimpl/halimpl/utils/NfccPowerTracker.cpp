@@ -26,6 +26,7 @@
 #include <stdio.h>
 #include <sys/file.h>
 #include <sys/time.h>
+#include <stdint.h>
 #include "logging.h"
 //#define ALOGD_IF(nfc_debug_enabled,...) { cout << (__VA_ARGS__); }
 //#define ALOGE(...) { cout << (__VA_ARGS__); }

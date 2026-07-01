@@ -19,6 +19,7 @@
 
 #include <string>
 #include <time.h>
+#include <stdint.h>
 #include <vector>
 
 /*Time spent in Active mode per count provided by NFCC*/
